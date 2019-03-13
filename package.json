@@ -1,0 +1,16 @@
+{
+  "name": "automergetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node memtest.js >> mem.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "slate": "http://npm.dev22/@thoughts/slate/download/@thoughts/slate-0.44.14.tgz",
+    "automerge": "0.9.2"
+  }
+}
